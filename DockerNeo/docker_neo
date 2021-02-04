@@ -1,10 +1,4 @@
 FROM neo4j:3.5.5-enterprise
-MAINTAINER Brock Tibert <btibert3@gmail.com>
-
-ENV APOC_URI https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.5.0.2/apoc-3.5.0.2-all.jar
-
-
-FROM neo4j:4.0.0
 
 ENV APOC_VERSION=4.1.0.6
 
